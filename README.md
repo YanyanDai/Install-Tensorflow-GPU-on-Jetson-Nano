@@ -17,7 +17,7 @@ ex) $ pip3 install --extra-index-url https://developer.download.nvidia.com/compu
 
 3. Test
 $ pythons 3
->>> import tensor Flow
+>>>import tensor Flow
 
 4. Trouble Shooting:
 error:
