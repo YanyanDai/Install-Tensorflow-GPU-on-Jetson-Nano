@@ -30,10 +30,15 @@ sudo cp -r /usr/local/cuda-10.2 /usr/local/cuda-10.0
 
 Step 2) Locate the file lib*.so.10.2* in the LD_LIBRARY_PATH path and create a symbolic link named lib*.so.10.0.
 nvidia@nvidia-desktop:~$ sudo ln -s /usr/local/cuda-10.0/lib64/libcudart.so.10.2.89 /usr/local/cuda-10.0/lib64/libcudart.so.10.0
+
 nvidia@nvidia-desktop:~$ sudo ln -s /usr/local/cuda-10.0/lib64/libcufft.so.10.1.2.89 /usr/local/cuda-10.0/lib64/libcufft.so.10.0
+
 nvidia@nvidia-desktop:~$ sudo ln -s /usr/local/cuda-10.0/lib64/libcurand.so.10.1.2.89 /usr/local/cuda-10.0/lib64/libcurand.so.10.0
+
 nvidia@nvidia-desktop:~$ sudo ln -s /usr/local/cuda-10.0/lib64/libcusolver.so.10.3.0.89 /usr/local/cuda-10.0/lib64/libcusolver.so.10.0
+
 nvidia@nvidia-desktop:~$ sudo ln -s /usr/local/cuda-10.0/lib64/libcusparse.so.10.3.1.89 /usr/local/cuda-10.0/lib64/libcusparse.so.10.0
+
 nvidia@nvidia-desktop:~$ sudo ln -s /usr/lib/aarch64-linux-gnu/libcublas.so.10.2.2.89 /usr/local/cuda-10.0/lib64/libcublas.so.10.0
 
 Step 3) Revise PATH, LD_LIBRARY_PATH
