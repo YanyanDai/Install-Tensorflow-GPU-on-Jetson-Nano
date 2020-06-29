@@ -1,5 +1,5 @@
 # Install-Tensorflow-GPU-on-Jetson-Nano
-# Install-Tensorflow-GPU-on-Jetson-Nano
+
 1. Install Dependency
 $ sudo apt-get install libhdf5-serial-dev hdf5-tools
 $ sudo apt-get install python3-pip
@@ -56,6 +56,3 @@ $ python3
 >>>import tensorflow
 
 2020-06-29 12:43:52.144355: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
-
-
-
